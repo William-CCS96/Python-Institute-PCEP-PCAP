@@ -11,9 +11,3 @@ print("y =", y)
 # y = 0.009999000199950014
 # x=-5
 # y = -0.19258202567760344
-
-hour = int(input("Hora de inicio (horas): "))
-mins = int(input("Minuto de inicio (minutos): "))
-dura = int(input("Duración del evento (minutos): "))
-
-print("El evento termina a las "+(hour+(120//(mins+dura)) 
