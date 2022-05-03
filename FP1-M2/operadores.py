@@ -57,7 +57,7 @@ print(6. // 4)
     # 1.0
         #El resultado de la división entera siempre se redondea al valor entero inferior mas cercano del resultado de la división no redondeada.
 print(-6 // 4)
-print(6. // -4)
+print(2. // -4)
     # -2
     # -2.0
     #La division entera también se le suele llamar en inglés floor division. Más adelante te cruzarás con este término.
@@ -70,6 +70,7 @@ print(14 % 4)
     # 2
 print(12 % 4.5)
     # 3.0
+print(23 % 25) 
 
 #DIVISIÓN ENTRE CERO NO FUNCIO
     #print(14 % 0)>ERROR
