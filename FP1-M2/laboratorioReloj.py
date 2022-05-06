@@ -13,3 +13,5 @@ mins_new=((mins+dura)-((mins+dura)//60)*60)
 
 
 print("El evento terminará a las = "+str(hour_new)+":"+str(mins_new))
+
+

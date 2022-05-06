@@ -82,3 +82,35 @@ print("\nTu nombre es " + fnam + " " + lnam + ".")
 print("+" + 10 * "-" + "+")
 print(("|" + " " * 10 + "|\n") * 5, end="")
 print("+" + 10 * "-" + "+")
+
+
+#INDICAR AL USUARIO PARA FINALIZAR EL PROGRAMA
+
+name = input("Ingresa tu nombre: ")
+print("Hola, " + name + ". ¡Un gusto conocerte!")
+
+print("\nPresiona la tecla Enter para finalizar el programa.")
+input()
+print("FIN.")
+
+#input() Es una cadena
+
+num_1 = input("Ingresa el primer número: ") # Ingresa 12
+num_2 = input("Ingresa el segundo número: ") # Ingresa 21
+
+print(num_1 + num_2) #el programa retorna 1221
+
+#input() También se pueden multiplicar cadenas
+
+prueba_input_mult=("Hey ")
+print(prueba_input_mult*4)
+    # Hey Hey Hey Hey
+
+#RESUMEN DE SECCIÓN
+x = int(input("Ingresa un número: ")) # El usuario ingresa un 2 
+print(x * "5")
+    #55
+
+x = input("Ingresa un número: ") # El usuario ingresa un 2 
+print(type(x))
+    #<class 'str'>
