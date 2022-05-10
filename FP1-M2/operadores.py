@@ -71,6 +71,7 @@ print(14 % 4)
 print(12 % 4.5)
     # 3.0
 print(23 % 25) 
+print(4002%4)
 
 #DIVISIÓN ENTRE CERO NO FUNCIO
     #print(14 % 0)>ERROR

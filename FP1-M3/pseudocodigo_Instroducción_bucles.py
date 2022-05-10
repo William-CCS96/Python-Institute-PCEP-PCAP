@@ -43,4 +43,3 @@ elif florDeLaPaz=="espatifilo":
 else:
     print("¡ESPATIFILIO!, ¡No "+florDeLaPaz+"!")
 
-    

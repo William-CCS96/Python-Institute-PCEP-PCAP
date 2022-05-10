@@ -24,5 +24,6 @@ if impuesto<0:
 
 print("El impuesto a pagar será de: ", round(impuesto,0),"pesos.")
 
+
     
 
