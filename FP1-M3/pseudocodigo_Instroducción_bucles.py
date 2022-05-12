@@ -2,6 +2,9 @@
 #Function max()
 
 # Se leen tres números.
+from subprocess import HIGH_PRIORITY_CLASS
+
+
 number1 = int(input("Ingresa el primer número: "))
 number2 = int(input("Ingresa el segundo número: "))
 number3 = int(input("Ingresa el tercer número: "))
@@ -21,6 +24,10 @@ print("El número más grande es:", largest_number)
 number1 = int(input("Ingresa el primer número: "))
 number2 = int(input("Ingresa el segundo número: "))
 number3 = int(input("Ingresa el tercer número: "))
+
+
+
+
 
 # Verifica cuál de los números es el mayor
 # y pásalo a la variable largest_number
