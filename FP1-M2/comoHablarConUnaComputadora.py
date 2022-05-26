@@ -41,7 +41,7 @@ something = anything ** 2.0
 print(anything, "al cuadrado es", something)
     #3 al cuadrado es 9.0
 
-#MÁS ACERCA DE FUNCIÓN prin(), float() and int()
+#MÁS ACERCA DE FUNCIÓN prin(), float() , int()
 leg_a = float(input("Inserta la longitud del primer cateto: "))
 leg_b = float(input("Inserta la longitud del segundo cateto: "))
 hypo = (leg_a**2 + leg_b**2) ** .5
@@ -53,7 +53,7 @@ leg_b = float(input("Inserta la longitud del segundo cateto: "))
 print("La longitud de la hipotenusa es:", ((leg_a**2 + leg_b**2) ** .5))
 
 
-#OPERADORES DE CANDENAS - INTRODUCCIÓN
+#OPERADORES DE C,ENAS - INTRODUCCIÓN
 
     #Concatenación
         # "+"

@@ -15,7 +15,7 @@ print("La Witsi Witsi Araña subió a su telaraña.")
 print()    
 print("Vino la lluvia y se la llevó.")
 
-#La barra invertida (\) tiene un significado muy especial cuando se usa dentro de las cadenas, es llamado el carácter de escape.
+#La barra invertida (\) tiene un significado muy especial cu,o se usa dentro de las cadenas, es llamado el carácter de escape.
 #La palabra escape debe entenderse claramente: significa que la serie de caracteres en la cadena se escapa (detiene) por un momento (un momento muy corto) para introducir una inclusión especial.
 #En otras palabras, la barra invertida no significa nada, sino que es solo un tipo de anuncio, de que el siguiente carácter después de la barra invertida también tiene un significado diferente.
 #La letra n colocada después de la barra invertida proviene de la palabra newline (nueva línea).
@@ -66,7 +66,7 @@ print("Python")
 print("Fundamentos","Programación","en",sep="-",end="..Final ")
 print("Python")
 
-#LABORATORIO: Dando formato a la salida
+#LABORATORIO: D,o formato a la salida
 print("    *")
 print("   * *")
 print("  *   *")

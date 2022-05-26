@@ -1,4 +1,5 @@
-menu=("""
+
+money=int(input("""
 Bienvenido a tu conversor de monedas 💲 
 
 Que modena tienes:
@@ -7,9 +8,7 @@ Que modena tienes:
 3. Euro
 4. BTC
 Marca el número correspondiente a tu moneda: 
-""") #Sacar emoji con windows + .
-
-money=int(input(menu))
+""")) #Sacar emoji con windows + .
 
 # valor 1. Pesos colombianos
 valor_dolar_pesos = 3679

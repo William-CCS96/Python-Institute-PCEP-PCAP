@@ -2,7 +2,7 @@ print(2+2)
 
     #Operadores Python relacionados con la aritmética
     #+, -, *, /, //, %, **
-    #Recuerda: Cuando los datos y operadores se unen, forman juntos expresiones. La expresión más sencilla es el literal.
+    #Recuerda: Cu,o los datos y operadores se unen, forman juntos expresiones. La expresión más sencilla es el literal.
 
 #EXPONENCIACIÓN
     # "**" :potencia

@@ -18,7 +18,7 @@ print(0x123)
         #Proviene de la palabra exponente
             #El exponente (el valor después de la E) debe ser un valor entero.
             #La base (el valor antes de la E) puede o no ser un valor entero.
-#CODIFICANDO FLOTANTE
+#CODIFIC,O FLOTANTE
     #"La constante de Planck"
         #6.62607E-34
         #c=6.62607E-34    
