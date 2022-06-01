@@ -75,3 +75,5 @@ for expo in range(16):
     # 2 a la potencia de 15 es 32768
     # 2 a la potencia de 14 es 32768
     # 2 a la potencia de 15 es 65536
+
+

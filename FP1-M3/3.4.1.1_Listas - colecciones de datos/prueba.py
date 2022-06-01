@@ -1,2 +1,4 @@
-list=[1,2,3,4]
-print(list[-3:-2])
+
+my_list = [1, 'a', ["lista", 64, [0, 1], False]]
+
+print(my_list[2])

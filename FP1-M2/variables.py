@@ -111,7 +111,7 @@ print(grados_kelvin, "°K son", round(grados_kelvin_to_grados_centigrados, 1), "
     # 42 °C son 315.1 °K
     # 345 °K son 71.9 °C
 
-#CONVERTIDOR ENTRE CM² Y MT²
+#CONVERTIDOR ENTRE MM² Y MT²
 millimeters_2= 425
 meters_2=15.3
 

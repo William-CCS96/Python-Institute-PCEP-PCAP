@@ -9,6 +9,7 @@ for i in my_list:
 print(largest)
     # 586
 
+
 #El programa anterior realiza una comparación innecesaria, cuando el primer elemento se compara consigo mismo, pero esto no es un problema en absoluto.
 
 # Si necesitas ahorrar energía de la computadora, puedes usar una rebanada:

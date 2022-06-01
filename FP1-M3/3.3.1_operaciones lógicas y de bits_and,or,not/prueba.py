@@ -1,3 +1,4 @@
-var=2
-var=var<<1
-print(var)
+nums=[1,2]
+vals=nums
+del vals[:]
+print(nums)

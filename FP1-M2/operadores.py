@@ -59,7 +59,7 @@ print(6. // 4)
 print(-6 // 4)
 print(2. // -4)
     # -2
-    # -2.0
+    # -1.0
     #La division entera también se le suele llamar en inglés floor division. Más adelante te cruzarás con este término.
 
 
