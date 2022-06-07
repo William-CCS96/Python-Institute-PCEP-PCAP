@@ -33,3 +33,7 @@ for french in dictionary.values():
     # chat
     # chien
     # cheval
+
+dd={"1": "0", "0": "1"}
+for x in dd.values():
+    print(x, end="")
