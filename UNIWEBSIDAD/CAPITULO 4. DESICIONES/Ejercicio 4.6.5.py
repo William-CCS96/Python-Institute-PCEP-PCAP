@@ -4,6 +4,7 @@
 # Dado un año indicar si es bisiesto. Nota: un año es bisiesto si es un número divisible por 4, pero no si es divisible por 100, excepto que también sea divisible por 400.
 
 from ast import If
+from itertools import count
 
 
 def is_year_leap(year):
@@ -164,5 +165,34 @@ def days_between_dates(year1, month1, day1,year2, month2, day2):
 days_between_dates(2015,1,1,2016,1,1)
 #Between the two dates there 0 years, 11 months and 31 days
 
+# Ejercicio 4.6.6. Suponiendo que el primer dia del año fue lunes, escribir una función que reciba un número con el dia del año (de 1 a 366) y devuelva el dia de la semana que le toca. Por ejemplo: si recibe 3 debe devolver miércoles, si recibe 9 debe devolver martes’.
 
+def days_of_week(day):
+    if day<1 or day>366:
+        return "Día invalido"
+    week=("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday")
+    count=1
+    month=1
+    year=0
+    count2=1
+    while True:
+        if day==count:
+            result=week[count2-1]
+            break
+        if week[count2-1]=="Sunday":
+            count2=1
+            count+=1
+            continue
+        if count<(days_in_month(year,month)):
+                count2+=1
+                count+=1
+        elif count==(days_in_month(year, month)):
+            count2+=1
+            month+=1
+    return result
+
+print(days_of_week(15)) 
+    # Monday
+        
+#Ejercicio 4.6.7. Escribir un programa que reciba como entrada un año escrito en números arábigos y muestre por pantalla el mismo año escrito en números romanos.           
 
