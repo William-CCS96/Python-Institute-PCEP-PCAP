@@ -31,10 +31,34 @@
         # El número es: 1
 
 
-def read_int(prompt, min, max):
-    #
-    # Escribe tu código aquí.
-    #
+# def read_int(prompt, min, max):
+#     #
+#     # Escribe tu código aquí.
+#     #
 
-v = read_int("Ingresa un numero entre -10 a 10: ", -10, 10)
-print("El número es:", v)
+# v = read_int("Ingresa un numero entre -10 a 10: ", -10, 10)
+# print("El número es:", v)
+
+
+def read_int(num,min, max,):
+        while True:
+                try:
+                        num=int(num)
+                        assert num in range(min,max)
+                        break
+                except AssertionError:
+                        print("Error: el valor no está dentro del rango permitido (-10..10)")
+                        num=(input("Ingresa un numero entre -10 a 10: "))   
+                except ValueError:
+                        print("Error: entrada incorrecta")
+                        num=(input("Ingresa un numero entre -10 a 10: "))
+        print("El número es:", num)
+
+prompt=(input("Ingresa un numero entre -10 a 10: "))      
+read_int(prompt,-10,10)
+        # Ingresa un numero entre -10 a 10: 15
+        # Error: el valor no está dentro del rango permitido (-10..10)
+        # Ingresa un numero entre -10 a 10: gh
+        # Error: entrada incorrecta
+        # Ingresa un numero entre -10 a 10: 1
+        # El número es: 1
