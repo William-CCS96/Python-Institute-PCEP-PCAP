@@ -23,9 +23,9 @@ print(len(word))
 # Ejemplo 2
 empty = ''
 print(len(empty))
-    # 3
+    # 0
 
 # Ejemplo 3
 i_am = 'I\'m'
 print(len(i_am))
-    # 0
+    # 3

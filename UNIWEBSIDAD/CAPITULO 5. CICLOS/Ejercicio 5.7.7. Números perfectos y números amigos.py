@@ -49,7 +49,7 @@ def num_perfect(m):
             x+=1
     print(list_perfect) 
 
-num_perfect(3)
+num_perfect(2)
 
 
 """Las primeras x parejas número amigos"""
@@ -88,7 +88,7 @@ def nums_friends(x):
             num1+=1
     return friends
 
-print(nums_friends(1))
+print(nums_friends(2))
 
 
 
