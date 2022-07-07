@@ -40,5 +40,6 @@ def run2():
 #Despues de esta invocación el programa va a empezar a correr todo lo que hay debajo
 if __name__ == "__main__":
     run()
+    run2()
 
 

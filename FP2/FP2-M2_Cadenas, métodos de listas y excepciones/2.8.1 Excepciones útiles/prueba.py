@@ -1,1 +1,2 @@
-print("mike">"Mike")
+x="\""
+print(len(x))

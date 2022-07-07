@@ -11,3 +11,4 @@ print("tau tau tau".rfind("ta", 3, 9))
     # -1
     # 4
 
+print("tau tau tau".count("ta"))
